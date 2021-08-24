@@ -9,7 +9,7 @@
         <script src="./js/ammap.js" type="text/javascript"></script>
         <!-- check ammap/maps/js/ folder to see all available countries -->
         <!-- map file should be included after ammap.js -->
-		<script src="./js/chinaLow.js" type="text/javascript"></script>
+		<script src="./js/china.js" type="text/javascript"></script>
         <script>
 			var map = AmCharts.makeChart("mapdiv", {
 				type: "map",
@@ -21,7 +21,7 @@
 				},
 
 				dataProvider: {
-					map: "chinaLow",
+					map: "china",
 					getAreasFromMap: true
 				},
 
@@ -41,7 +41,8 @@
     </head>
 
     <body>
-        <div id="mapdiv" style="width: 100%; background-color:#EEEEEE; height: 800px;"></div>
+        <div id="mapdiv" style="width: 75%; background-color:#EEEEEE; height: 800px;"></div>
+        <p >hello world</p>
     </body>
 
 </html>
