@@ -1,17 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Graduation10111</title>
-</head>
-<body>
-    <!-- <h1>关于《毕业去向图》（以下简称《图》）相关说明</h1>
-    <p>由于洪（gū）涝（gū）、疫（gū）情（gū）等（gū）多种不可控因素影响，现《图》由本人负责制作，格式为.html（网页）+.png（图片）。由于本人尚未熟练掌握html+css+JavaScript等相关技术，可能在需要现学现用，以及在设计方面的不足，希望各位见谅。</p>
-    <p>为了更好地使《图》反映最广大人民的合理意愿，本人在GitHub上己建立一代码仓库（https://github.com/tonysyz/Graduation10111），每日实时更新。在README.md可以查看相关效果，好想法/意见的反馈方式：</p>
-    <p>13523097216@163.com</p>
-    <p>Thanks! by tonysyz</p> -->
-    
-</body>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>amMap example</title>
+
+        <link rel="stylesheet" href="./css/ammap.css" type="text/css">
+        <script src="./js/ammap.js" type="text/javascript"></script>
+        <!-- check ammap/maps/js/ folder to see all available countries -->
+        <!-- map file should be included after ammap.js -->
+		<script src="./js/chinaLow.js" type="text/javascript"></script>
+        <script>
+			var map = AmCharts.makeChart("mapdiv", {
+				type: "map",
+
+
+                dragMap: false,
+				balloon: {
+					color: "#000000"
+				},
+
+				dataProvider: {
+					map: "chinaLow",
+					getAreasFromMap: true
+				},
+
+				zoomControl: {
+					panControlEnabled: false,
+					zoomControlEnabled: false
+                },
+
+				areasSettings: {
+					autoZoom: false,
+					selectedColor: "#CC0000"
+				},
+
+				smallMap: {}
+			});
+        </script>
+    </head>
+
+    <body>
+        <div id="mapdiv" style="width: 100%; background-color:#EEEEEE; height: 800px;"></div>
+    </body>
+
 </html>

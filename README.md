@@ -1,2 +1,6 @@
 # Graduation10111
-Dear my friends, where should I go to find you?
+## 2021-08-25 02.52.40
+
+map found
+
+![](./src/2021-08-25at02.52.40.png)
