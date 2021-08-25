@@ -4,13 +4,19 @@ body {
 	color: black;
 }
 
+/* #coverA {
+	width:100%;
+	height: 100%;
+	opacity: 50%;
+} */
+
 #navigation ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: rgb(116, 116, 116);
-	position:sticky;
+	/* position:absolute; */
 	top:0;
 	width:100%;
 	border-radius: 10px;
@@ -41,15 +47,22 @@ body {
 }
 
 #mapdivChina {
+	overflow: hidden;
+	/* position:absolute; */
 	width:66%;
-	float:left;
-	margin-left: auto;
+	margin-left: 20%;
 	margin-right: auto;
 	margin-top: 10px;
-	background-color:#DDDDDD;
-	height:900px;
+	/* background-color:#DDDDDD; */
+	background-image: url('../src/001.jpg');
+	background-size: contain;
+	height:866px;
 	border-radius: 10px;
 	opacity:80%
+}
+
+#mapdivChina div {
+	opacity: 88%;
 }
 
 #memory {
@@ -98,4 +111,26 @@ body {
 #memory .memories ul li a:hover{
 	font-size:17px;
 	color:rgb(195, 0, 255);
+}
+
+/* cursor effect */
+body {  
+    cursor: url(../src/normal.cur), auto;
+}
+ 
+ 
+a {
+    cursor: url(../src/ayuda.cur), auto
+}
+ 
+a:active {
+    cursor: url(../src/work.cur), alias
+}
+ 
+p {
+    cursor: url(../src/texto.cur), auto
+}
+ 
+span {
+   cursor: url(../src/No_Disponible.cur), auto;
 }
