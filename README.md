@@ -1,7 +1,7 @@
 # Graduation10111
 ## 2021-08-25 02.52.40
 
-based on https://s3.amazonaws.com/amcharts-downloads/3.21/ammap_3.21.15.free.zip
+based on https://github.com/amcharts/amcharts4
 
 map found
 
