@@ -4,11 +4,6 @@ body {
 	color: black;
 }
 
-/* a:link {color: #84c4e2;}
-a:visited {color:#84c4e2;}
-a:hover {color: #cd82ad;}
-a:active {color: #84c4e2;} */
-
 #navigation ul {
 	list-style-type: none;
 	margin: 0;
@@ -18,12 +13,14 @@ a:active {color: #84c4e2;} */
 	position:sticky;
 	top:0;
 	width:100%;
+	border-radius: 10px;
 }
 
 #navigation li {
 	float:left;
 	border-right: 1px solid #bbb;
 	display: inline;
+	border-radius: 10px;
 }
 
 #navigation li a {
@@ -32,6 +29,7 @@ a:active {color: #84c4e2;} */
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	border-radius: 10px;
 }
 
 #navigation li a:hover {
@@ -43,8 +41,61 @@ a:active {color: #84c4e2;} */
 }
 
 #mapdivChina {
-	width:75%;
+	width:66%;
+	float:left;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
 	background-color:#DDDDDD;
 	height:900px;
-	opacity:75%
+	border-radius: 10px;
+	opacity:80%
+}
+
+#memory {
+	width:15%;
+	float: left;
+	margin:20px;
+}
+
+#memory .memories h2 {
+	background-color: antiquewhite;
+	margin:5px;
+	display:block;
+	text-align: center;
+	border-radius: 5px;
+	border-spacing: 3px;
+	text-shadow: 5px;
+	border-style: outset;
+}
+
+#memory .memories h3 {
+	background-color: #ece0ff;
+	margin-right: 20px;
+	font-style: oblique;
+	margin-left: 12px;
+	border-radius: 4px;
+	text-shadow: 3px;
+}
+
+#memory .memories ul {
+	list-style-type: none;
+}
+
+#memory .memories ul li a {
+	display: block;
+	background-color: rgba(190, 238, 232, 0.548);
+	font-size: 15px;
+	margin-top:25px;
+	margin-bottom: 25px;
+	padding: 3px;
+	font-style: normal;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 7px;
+}
+
+#memory .memories ul li a:hover{
+	font-size:17px;
+	color:rgb(195, 0, 255);
 }
