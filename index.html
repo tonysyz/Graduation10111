@@ -15,7 +15,7 @@
             AmCharts.ready(function() {
 			    map = new AmCharts.AmMap();
                 map.addTitle("2021届23班毕业去向图-中国|China", 50);
-                map.addTitle("Latest Updated: Aug 26", 20);
+                map.addTitle("Latest Updated: Aug 27, 2021", 20);
                 // map.projection = "winkel3";
                 // AmCharts.theme = AmCharts.themes.black;
 
@@ -34,7 +34,7 @@
 				map.areasSettings = {
                     rollOverOutlineColor: "#FFFFFF",
                     rollOverColor: "#CC0000",
-                    balloonText: "<span style='font-size:17px;'><b>[[title]]</b>---->[[customData]]</span>",
+                    balloonText: "<span style='font-size:17px;'><b>[[title]]</b>[[customData]]</span>",
 					outlineThickness:1.25,
                     autoZoom:false,
                     selectedColor: "#FF841A",
@@ -228,7 +228,7 @@
                         title: "北京",
                         id: 'CN-11',
                         color: "#A5DEFF",
-                        customData: "",
+                        customData: '<table border="1"><tr><th>城&nbsp;市</th><th>学校</th><th>姓&nbsp;&nbsp;&nbsp;名</th></tr><tr><td rowspan="6">北京</td><td rowspan="2"><img height="35px" width="120px" src="./src/bsu.png"></td><td>单昕</td></tr><tr><td>冯雨欣</td></tr><td><img height="35px" width="120px" src="./src/bfsu.png"></td><td>都可心</td></tr><td></td><td>谷行言</td></tr><tr><td><img height="35px" width="120px" src="./src/ruc.png"></td><td>李莞婷</td></tr><tr><td></td><td>王奕文</td></tr></table>',
                         groupId: "6"
                     },
                     {
@@ -242,14 +242,14 @@
                         title: "山东",
                         id: 'CN-37',
                         color: "#215AB0",
-                        customData: "济南：乔思锦、宋昱樟（山东大学）。",
+                        customData: '<table border="1"><tr><th>城&nbsp;市</th><th>学校</th><th>姓&nbsp;&nbsp;&nbsp;名</th></tr><tr><td rowspan="2">济南</td><td rowspan="2"><img height=35px width=100px src="./src/sdu.png"></td><td>乔思锦</td></tr><tr><td>宋昱樟</td></tr></table>',
                         groupId: "2"
                     },
                     {
                         title: "河南",
                         id: 'CN-41',
                         color: "#A5DEFF",
-                        customData: "郑州：陈文轩（河南财经政法大学）｜李昊忱、杨如弘若（郑州大学）｜王怡霖｜张竞文｜周非凡",
+                        customData: '<table border="1"><tr><th>城市</th><th>学校</th><th>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名</th></tr><tr><td rowspan="6">郑州</td><td><img height="35px" width="120px" src="./src/huel.png"></td><td>陈文轩</td></tr><tr><td rowspan="2"><img height="35px" width="120px" src="./src/zzu.png"></td><td>李昊忱</td></tr><tr><td>杨如弘若</td></tr><tr><td></td><td>王怡霖</td></tr><tr><td></td><td>张竞文</td></tr><tr><td></td><td>周非凡</td></tr></table>',
                         groupId: "6"
                     },
                     {
@@ -291,49 +291,49 @@
                         title: "海南",
                         id: 'CN-46',
                         color: "#002B81",
-                        customData: "海口：刘尚（海南大学）。",
+                        customData: '<table border="1"><tr><th>城市</th><th>学校</th><th>姓名</th></tr><tr><td>海口</td><td><img width=120px height=35px src="./src/hainanu.png"></td><td>刘尚</td></tr></table>',
                         groupId: "1"
                     },
                     {
                         title: "河北",
                         id: 'CN-13',
                         color: "#002B81",
-                        customData: "廊坊：胡校翡。",
+                        customData: '<table border="1"><tr><th>城市</th><th>学校</th><th>姓名</th></tr><tr><td>廊坊</td><td></td><td>胡校翡</td></table>',
                         groupId: "1"
                     },
                     {
                         title: "黑龙江",
                         id: 'CN-23',
                         color: "#002B81",
-                        customData: "哈尔滨：秦畅（东北农业大学）。",
+                        customData: '<table border="1"><tr><th>城&nbsp;&nbsp;&nbsp;市</th><th>学校</th><th>姓&nbsp;&nbsp;&nbsp;名</th></tr><tr><td>哈尔滨</td><td><img height="30px" width="101px" src="./src/neau.png"></td><td>秦畅</td></tr></table>',
                         groupId: "1"
                     },
                     {
                         title: "湖北",
                         id: 'CN-42',
                         color: "#215AB0",
-                        customData: "武汉：侯凯鑫｜沈小甜（中南财经政法大学）。",
+                        customData: '<table border="1"><tr><th>城市</th><th>学校</th><th>姓&nbsp;&nbsp;&nbsp;名</th></tr><tr><td rowspan="2">武汉</td><td></td><td>侯凯鑫</td></tr><tr><td><img width="120px" height="35px" src="./src/zuel.png"></td><td>沈小甜</td></tr></table>',
                         groupId: "2"
                     },
                     {
                         title: "吉林",
                         id: 'CN-22',
                         color: "#002B81",
-                        customData: "长春：赵子佳（吉林外国语大学）。",
+                        customData: '<table border="1"><tr><th>城市</th><th>学校</th><th>姓&nbsp;&nbsp;&nbsp;名</th></tr><tr><td>长春</td><td><img height="35px" width="120px" src="./src/jisu.png"></td><td>赵子佳</td></tr></table>',
                         groupId: "1"
                     },
                     {
                         title: "江苏",
                         id: 'CN-32',
                         color: "#6CFFFF",
-                        customData: "南京：陈柄言（南京审计大学）｜张禾佳｜张婧懿；苏州：李佳荣｜王路灿｜赵文迪（西交利物浦）；无锡：杨沛霖（江南大学）。",
+                        customData: '<table border="1"><tr><th>城市</th><th>学校</th><th>姓&nbsp;&nbsp;&nbsp;名</th></tr><tr><td rowspan="3">南京</td><td><img height="35px" width="120px" src="./src/nau.png"></td><td>陈柄言</td></tr><tr><td></td><td>张禾佳</td></tr><tr><td></td><td>张婧懿</td></tr><tr><td rowspan="3">苏州</td><td></td><td>李佳荣</td></tr><tr><td></td><td>王路灿</td></tr><tr><td><img height="33px" width="120px" src="./src/xjtlu.png"></td><td>赵文迪</td></tr></table>',
                         groupId: "7"
                     },
                     {
                         title: "江西",
                         id: 'CN-36',
                         color: "#002B81",
-                        customData: "南昌：赵畅",
+                        customData: '<table border="1"><tr><th>城市</th><th>学校</th><th>姓名</th></tr><tr><td>南昌</td><td></td><td>赵畅</td></tr></table>',
                         groupId: "1"
                     },
                     {
@@ -375,28 +375,28 @@
                         title: "陕西",
                         id: 'CN-61',
                         color: "#81BAFF",
-                        customData: "西安：冯靖涵（西安电子科技大学）｜李艺菲（陕西师范大学）｜张瀚霖｜赵煜晨｜朱栎旭（陕西科技大学）。",
+                        customData: '<table border="1"><tr><th>城市</th><th>学校</th><th>姓&nbsp;&nbsp;&nbsp;名</th></tr><tr><td rowspan="5">西安</td><td><img height="35px" width="120px" src="./src/xidian.png"></td><td>冯靖涵</td></tr><tr><td><img height=35px width=120px src="./src/snnu.png"></td><td>李艺菲</td></tr><tr><td></td><td>张瀚霖</td></tr><tr><td></td><td>赵煜晨</td></tr><tr><td><img height=60px width=120px src="./src/sust.png"></td><td>朱栎旭</td></tr></table>',
                         groupId: "5"
                     },
                     {
                         title: "上海",
                         id: 'CN-31',
                         color: "#215AB0",
-                        customData: "谷雨璞｜王翔宇（上海政法学院）。",
+                        customData: '<table border="1"><tr><th>城市</th><th>学校</th><th>姓&nbsp;&nbsp;&nbsp;名</th></tr><tr><td rowspan="2">上海</td><td></td><td>谷雨璞</td></tr><tr><td><img height="35px" width="120px" src="./src/shupl.png"></td><td>王翔宇</td></tr></table>',
                         groupId: "2"
                     },
                     {
                         title: "四川",
                         id: 'CN-51',
                         color: "#002B81",
-                        customData: "成都：张雨桐。",
+                        customData: '<table border="1"><tr><th>城市</th><th>学校</th><th>姓名</th></tr><tr><td>成都</td><td></td><td>张雨桐</td></tr></table>',
                         groupId: "1"
                     },
                     {
                         title: "天津",
                         id: 'CN-12',
                         color: "#215AB0",
-                        customData: "苗卓琦｜周琬钦（南开大学）",
+                        customData: '<table border="1"><tr><th>城市</th><th>学校</th><th>姓&nbsp;&nbsp;&nbsp;名</th></tr><tr><td rowspan="2">天津</td><td></td><td>苗卓琦</td></tr><tr><td><img width=120px src="./src/nankai.png"></td><td>周琬钦</td></tr></table>',
                         groupId: "2"
                     },
                     {
@@ -424,21 +424,21 @@
                         title: "香港",
                         id: 'CN-91',
                         color: "#002B81",
-                        customData: "郭欣怡（香港中文大学）",
+                        customData: '<table border="1"><tr><th>城市</th><th>学校</th><th>姓名</th></tr><tr><td>香港</td><td><img width=135px src="./src/cuhk.png"></td><td>郭欣怡</td></tr></table>',
                         groupId: "1"
                     },
                     {
                         title: "浙江",
                         id: 'CN-33',
                         color: "#215AB0",
-                        customData: "宁波：李若静｜钟紫涵（宁波诺丁汉）。",
+                        customData: '<table border="1"><tr><th>城市</th><th>学校</th><th>姓名</th></tr><tr><td rowspan="2">宁波</td><td></td><td>李若静</td></tr><tr><td><img width=120px height="35px" src="./src/nottingham.png"></td><td>钟紫涵</td></tr></table>',
                         groupId: "2"
                     },
                     {
                         title: "重庆",
                         id: 'CN-50',
                         color: "#518AE0",
-                        customData: "马承钰（西南大学）｜安麒羽｜吕婧玥｜常乂文。",
+                        customData: '<table border="1"><tr><th>城市</th><th>学校</th><th>姓名</th></tr><tr><td rowspan="4">重庆</td><td><img width=120px height=35px src="./src/swu.png"></td><td>马承钰</td></tr><tr><td></td><td>安麒羽</td></tr><tr><td></td><td>吕婧玥</td></tr><tr><td></td><td>常乂文</td></tr></table>',
                         groupId: "4"
                     },
                     {
@@ -687,44 +687,6 @@
         <div id="mapdivChina">
 
         </div>
-<!--         Model
-        <table border="1">
-            <tr>
-                <th>姓名</th>
-                <th>学校</th>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-        </table>
--->
-<!-- 
-（）｜、（）｜｜｜
--->
-
-
-
-
-
-
-
-
-
-
-
         <!-- <div id="listdiv"></div> -->
     </body>
     <script>
